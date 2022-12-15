@@ -3,7 +3,8 @@ import pandas as pd
 from pandas import DataFrame
 
 
-#   This script traces a PO from receipt to all levels of production to final item
+#   This script traces lot tracked items in Business Central
+#   It traces a PO from receipt to all levels of production to final item
 #   It can handle multiple BOM / Production order levels
 #   1. Get initial list of lots
 #   2. Get the production orders that consume them
